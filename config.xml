@@ -52,8 +52,10 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>set -ex
-cd $workspace &amp;&amp; make -f Makefile.CI</command>
+      <command>
+          set -ex
+          cd $WORKSPACE &amp;&amp; make -f Makefile.CI
+      </command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
