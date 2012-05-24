@@ -4,3 +4,4 @@ cpanm Module::Install::ReadmeMarkdownFromPod
 cpanm Module::Build
 cpanm Devel::Cover
 cpanm Devel::NYTProf
+cpanm TAP::Formatter::JUnit
